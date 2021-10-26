@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AssetRegistry.MainPage">
+    <StackLayout Padding="30">
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="45"/>
+                <RowDefinition Height="45"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Text="Back to Entry" Clicked="Back_Button_Clicked" 
+                    BackgroundColor="Black" 
+                    TextColor="White"
+                    Grid.Row="0"
+                    Grid.Column="0"/>
+            <Button Text="Delete All Items" Clicked="Delete_Clicked" 
+                    BackgroundColor="Red" 
+                    TextColor="White"
+                    Grid.Row="0"
+                    Grid.Column="1"/>
+                    
+            <RadioButton Content="Style 1" IsChecked="True" 
+                         CheckedChanged="RadioButton1_CheckedChanged"
+                         Grid.Row="1"
+                         Grid.Column="0"/>
+            <RadioButton Content="Style 2" 
+                         CheckedChanged="RadioButton2_CheckedChanged"
+                         Grid.Row="1"
+                         Grid.Column="1"/>
+        </Grid>
+        
+        <ListView ItemsSource="{Binding Items}"
+                  HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ContentView>
+                            <StackLayout Padding="20">
+                                <StackLayout Orientation="Vertical">
+                                    <Label Text="Item Description: " TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Description}" />
+                                    <Label Text="Item Make: " TextColor="Black" FontAttributes="Bold"/>
+                                    <Label Text="{Binding Make}" />
+                                </StackLayout>
+                                    <StackLayout Orientation="Horizontal">
+                                        <Label Text="Serial Number: " TextColor="Black" FontAttributes="Bold"/>
+                                        <Label Text="{Binding SerialNumber}" />
+                                        <Label Text="Item Value: " TextColor="Black" FontAttributes="Bold" />
+                                        <Label Text="{Binding Value}"/>
+                                    </StackLayout>
+                            </StackLayout>
+                        </ContentView>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+</ContentPage>

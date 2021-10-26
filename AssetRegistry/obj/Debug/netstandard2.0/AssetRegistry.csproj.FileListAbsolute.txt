@@ -1,0 +1,16 @@
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\bin\Debug\netstandard2.0\AssetRegistry.deps.json
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\bin\Debug\netstandard2.0\AssetRegistry.dll
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\bin\Debug\netstandard2.0\ref\AssetRegistry.dll
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\bin\Debug\netstandard2.0\AssetRegistry.pdb
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\AssetRegistry.csproj.AssemblyReference.cache
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\AssetRegistry.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\AssetRegistry.AssemblyInfoInputs.cache
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\AssetRegistry.AssemblyInfo.cs
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\AssetRegistry.csproj.CoreCompileInputs.cache
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\AssetRegistry.dll
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\ref\AssetRegistry.dll
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\AssetRegistry.pdb
+C:\Users\richa\source\repos\AssetRegistry\AssetRegistry\obj\Debug\netstandard2.0\View\EntryPage.xaml.g.cs

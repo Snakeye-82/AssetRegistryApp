@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AssetRegistry.View.EntryPage">
+    <ContentPage.Content>
+        <StackLayout Padding="20" VerticalOptions="Start">
+            <Label FontSize="Large"
+                   TextColor="DarkBlue"
+                   Text="Welcome to the Asset Registry. Enter details below to add to the registry, or Click 'View List' to view the current list."/>
+            
+            <Entry x:Name="ItemDescription" Placeholder="Item Description" Text="{Binding Description}" MaxLength="100" HorizontalOptions="FillAndExpand" />
+            <Entry x:Name="Make" Placeholder="Make" Text="{Binding Make}" MaxLength="100" />
+            <Entry x:Name="Serial" Placeholder="Serial Number" Text="{Binding SerialNumber}" MaxLength="100" />
+            <Entry x:Name="Value" Placeholder="Dollar Value" Text="{Binding Value}" Keyboard="Numeric" MaxLength="10" HorizontalOptions="StartAndExpand" />
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Add" Clicked="AddEntry" BackgroundColor="Green" TextColor="White" WidthRequest="150"/>
+                <Button Text="View Item List" Clicked="ViewList" BackgroundColor="Black" TextColor="White" WidthRequest="150"/>
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>
