@@ -17,9 +17,7 @@ namespace AssetRegistry.ViewModel
             item.SerialNumber = SerialNumber;
             item.Value = "$"+Value;
             App.Database.SaveItemAsync(item);
-
         }
-
         
     }
 }

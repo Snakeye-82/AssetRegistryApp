@@ -9,10 +9,7 @@ namespace AssetRegistry.Model
         public string Description { get; set; }
         public string Make { get; set; }
         public string SerialNumber { get; set; }
-
         public string Value { get; set; }
-        
-
         
     }
 }

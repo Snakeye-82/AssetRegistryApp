@@ -15,8 +15,6 @@ namespace AssetRegistry.ViewModel
 
         public MainPageViewModel()
         {
-
-            
             PopulateItems();
         }
 
@@ -36,7 +34,6 @@ namespace AssetRegistry.ViewModel
             {
                 await App.Database.DeleteItemAsync(item);
             }
-            
             
         }
         
