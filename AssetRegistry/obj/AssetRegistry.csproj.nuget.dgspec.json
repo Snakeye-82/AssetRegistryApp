@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry\\AssetRegistry.csproj": {}
+    "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry\\AssetRegistry.csproj": {}
   },
   "projects": {
-    "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry\\AssetRegistry.csproj": {
+    "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry\\AssetRegistry.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry\\AssetRegistry.csproj",
+        "projectUniqueName": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry\\AssetRegistry.csproj",
         "projectName": "AssetRegistry",
-        "projectPath": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry\\AssetRegistry.csproj",
+        "projectPath": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry\\AssetRegistry.csproj",
         "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry\\obj\\",
+        "outputPath": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\",
@@ -50,10 +50,6 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
-            },
-            "Newtonsoft.Json": {
-              "target": "Package",
-              "version": "[13.0.1, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

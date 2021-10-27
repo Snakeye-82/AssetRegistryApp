@@ -1077,7 +1077,6 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
-          "Newtonsoft.Json": "13.0.1",
           "Xamarin.Essentials": "1.6.1",
           "Xamarin.Forms": "5.0.0.2012",
           "sqlite-net-pcl": "1.8.116"
@@ -2422,11 +2421,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry.Android\\AssetRegistry.Android.csproj",
+      "projectUniqueName": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry.Android\\AssetRegistry.Android.csproj",
       "projectName": "AssetRegistry.Android",
-      "projectPath": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry.Android\\AssetRegistry.Android.csproj",
+      "projectPath": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry.Android\\AssetRegistry.Android.csproj",
       "packagesPath": "C:\\Users\\richa\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry.Android\\obj\\",
+      "outputPath": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2447,8 +2446,8 @@
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry\\AssetRegistry.csproj": {
-              "projectPath": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry\\AssetRegistry.csproj"
+            "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry\\AssetRegistry.csproj": {
+              "projectPath": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry\\AssetRegistry.csproj"
             }
           }
         }

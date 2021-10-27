@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gF10CpDbd20lyNWOwwlNfyyUk/6nOnDOaZkokLsiNkkiUpBlj5tbTPD/75WbKxGFJPnZK7z30D0Le3onsnve/w==",
+  "dgSpecHash": "tHfafXJSaoXLaQuZ/JBbML9A0EXlLpAQ57W/VpGHfJN31NTD9n63KMXDrKz4JBnOHsyNwIUjtPkToPXMYAR9PQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\richa\\source\\repos\\AssetRegistry\\AssetRegistry.Android\\AssetRegistry.Android.csproj",
+  "projectFilePath": "C:\\Users\\richa\\Source\\Repos\\Snakeye-82\\AssetRegistryApp\\AssetRegistry.Android\\AssetRegistry.Android.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\richa\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\richa\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
